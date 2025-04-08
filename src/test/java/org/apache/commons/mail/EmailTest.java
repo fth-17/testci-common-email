@@ -88,22 +88,7 @@ public class EmailTest {
     }
     
 
-    // Test adding a valid email header (should throw an exception)
-    //@Test(expected = IllegalArgumentException.class)
-   // public void testAddHeader_ValidNameandValue() {
-    	
-    //    email.addHeader("HeaderValue", "SomeValue"); // Adding a valid header
-        
-   // }
-
-    
-    // Test adding a header with an empty name (should throw an exception)
-    //@Test(expected = IllegalArgumentException.class)
-    //public void testAddHeader_NameIsEmpty() {
-    	
-      //  email.addHeader(" ", "SomeValue"); // Empty header name
-        
-   // }
+  
     
 
     // Test adding a header with a null name (should throw an exception)
@@ -264,13 +249,7 @@ public class EmailTest {
     }
     
 
-    // Test default socket connection timeout (should be 0)
-//    @Test
-   // public void testGetSocketConnectionTimeout_Default() {
-    	
-    //    assertEquals(0, email.getSocketConnectionTimeout());
-        
-   // }
+ 
     
 
     // Test setting a valid sender email address
