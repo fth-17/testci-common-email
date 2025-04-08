@@ -14,7 +14,6 @@ import javax.mail.Message;
 import javax.mail.Session;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import org.junit.jupiter.api.Disabled;
 
 
 public class EmailTest {
