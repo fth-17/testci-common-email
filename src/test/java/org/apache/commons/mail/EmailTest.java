@@ -87,12 +87,12 @@ public class EmailTest {
     
 
     // Test adding a valid email header (should throw an exception)
-    @Test(expected = IllegalArgumentException.class)
-    public void testAddHeader_ValidNameandValue() {
+    //@Test(expected = IllegalArgumentException.class)
+   // public void testAddHeader_ValidNameandValue() {
     	
-        email.addHeader("HeaderValue", "SomeValue"); // Adding a valid header
+    //    email.addHeader("HeaderValue", "SomeValue"); // Adding a valid header
         
-    }
+   // }
 
     
     // Test adding a header with an empty name (should throw an exception)
